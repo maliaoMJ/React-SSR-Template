@@ -1,0 +1,42 @@
+{
+  "name": "next-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^3.0.2",
+    "@types/classnames": "^2.2.7",
+    "@types/next": "^8.0.1",
+    "@types/prop-types": "^15.7.0",
+    "@types/react": "^16.8.8",
+    "@types/styled-components": "^4.1.12",
+    "@types/styled-jsx": "^2.2.8",
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "@zeit/next-sass": "0.0.9",
+    "@zeit/next-typescript": "^1.1.1",
+    "faker": "^4.1.0",
+    "fork-ts-checker-webpack-plugin": "^1.0.0",
+    "jss": "latest",
+    "next": "^8.0.3",
+    "node-sass": "^4.7.2",
+    "prop-types": "latest",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-jss": "^8.1.0",
+    "styled-components": "^4.0.0",
+    "styled-jsx": "^3.2.1",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
+  },
+  "scripts": {
+    "start": "next start",
+    "dev": "next",
+    "build": "next build",
+    "analyze": "BUNDLE_ANALYZE=both next build",
+    "analyze:server": "BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "BUNDLE_ANALYZE=browser next build"
+  }
+}
